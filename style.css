@@ -1,0 +1,46 @@
+body{
+  background-color: #FEFAEF !important;
+}
+
+.container{
+  height: 100vh;
+  background-color: #FEFAEF !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-card{
+  width: 30rem;
+}
+
+.quastion-footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  padding-top: 12px;
+  align-items: center;
+}
+
+.quiz-answer-card:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.bg-success, .bg-danger{
+  color: white !important;
+}
+
+.trophyIcon{
+  width: 100%;
+}
+
+h1, .quizEndText{
+  text-align: center;
+}
+
+.button-row{
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
